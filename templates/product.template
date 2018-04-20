@@ -1,0 +1,9 @@
+{{#each this}}
+    <li class="product-cell" data-productid={{id}} id="prodID-{{id}}">
+        <span class="product-name">{{{name}}}</span>
+
+        <img class="product-thumb" src="{{thumbnail.href}}"/>
+
+		<span class="product-price">{{formatCurrency priceRange.selling.low}} - {{formatCurrency priceRange.selling.high}}</span>
+    </li>
+{{/each}}
