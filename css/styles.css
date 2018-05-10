@@ -114,15 +114,3 @@ body .modal .modal-body .bx-wrapper .bx-controls .bx-pager .bx-pager-item .bx-pa
   background: #fff;
 }
 /* handheld portrait  */
-@media only screen and (min-width: 320px) and (max-width: 480px) {
-  body#category-page #product-list {
-    flex-flow: column wrap;
-  }
-  body#category-page #product-list .product-cell {
-    width: 50vw;
-    left: 50%;
-  }
-  body#category-page #product-list .product-cell .product-name {
-    font-size: 1.2em;
-  }
-}
